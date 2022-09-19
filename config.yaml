@@ -80,7 +80,7 @@ params:
   tiles:
     enable: yes
     showcase:
-      - image: pic01.jpg
+      - image: IMG_1.jpg
         subtitle: A journey into my life
         title: About me
         url: blogs/aliquam
@@ -105,7 +105,7 @@ params:
         title: Etiam
         url: blogs/ipsum
   two:
-    buttonText: Get Started
+    buttonText: Let's take off!
     enable: yes
     subtitle: "From my first internship at Udaan.com, a growing B2B e-comerce firm in
     India, I have been in love with Analytics. \n Post my move to RBL Bank, a growing
