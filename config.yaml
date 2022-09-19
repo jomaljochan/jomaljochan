@@ -80,7 +80,7 @@ params:
   tiles:
     enable: yes
     showcase:
-      - image: IMG_1.jpg
+      - image: IMG_01.jpg
         subtitle: A journey into my life
         title: About me
         url: blogs/aliquam
