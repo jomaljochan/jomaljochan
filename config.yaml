@@ -1,6 +1,6 @@
 baseURL: https://jomal-portfolio.netlify.app
 languageCode: en-us
-title: Forty
+title: Jomal Jochan
 theme: forty
 googleAnalytics: ''
 disqusShortname: ''
@@ -8,24 +8,23 @@ params:
   banner:
     buttonText: Get Started
     subtitle: |-
-      A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
-      AND RELEASED UNDER THE CREATIVE COMMONS.
-    title: Hi, my name is Forty
+      Analytics | Startups | Strategy
+    title: Hello
   blog: {}
   contact:
     address:
-      - city: City, ST 00000
-        country: Country
-        street: Street
-        title: Address
+      - city: London
+        country: UK
+        street: 144, Huddleston Road
+        title: IQ Tufnell House
     buttonClear: Clear
     buttonSend: Send message
     email:
-      - email: example@domain.com
+      - email: jjochan.mam2023@london.edu
         title: Email
     enable: yes
     phone:
-      - phone: (000) 000-0000 x1234
+      - phone: (+44) 7767979489
         title: Phone
   custom_css: []
   custom_js: []
