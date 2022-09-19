@@ -5,7 +5,7 @@ theme: forty
 googleAnalytics: ''
 disqusShortname: ''
 params:
-  banner:
+  banner: IMG_1.jpg
     buttonText: Get Started
     subtitle: |-
       Analytics | Startups | Strategy
