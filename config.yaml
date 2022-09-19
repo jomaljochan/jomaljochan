@@ -75,8 +75,8 @@ params:
       - name: Elements
         url: elements.html
     menu: Menu
-    subtitle: By HTML5 Up
-    title: Forty
+    subtitle: A Summary of life & work
+    title: Home
   tiles:
     enable: yes
     showcase:
@@ -88,10 +88,10 @@ params:
         subtitle: A peek into my work
         title: Careers & professional life
         url: blogs/tempus
-#      - image: pic03.jpg
-#        subtitle: Lorem Etiam Nullam
-#        title: Magna
-#        url: blogs/magna
+      - image: pic03.jpg
+        subtitle: Lorem Etiam Nullam
+        title: Magna
+        url: blogs/magna
       - image: pic04.jpg
         subtitle: Nisl Sed Aliquam
         title: Ipsum
