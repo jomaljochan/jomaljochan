@@ -33,13 +33,13 @@ params:
     heading: Page couldn't be found
     text: Please visit [this page](/)
   favicon: favicon.ico
-#  footer:
-#    copyright: Company Name
-#    enable: yes
-#    quicklinks:
-#      - alt: HTML5 UP
-#        text: 'Design: '
-#        url: https://www.html5up.net
+  footer:
+    copyright: Company Name
+    enable: yes
+    quicklinks:
+      - alt: HTML5 UP
+        text: 'Design: '
+        url: https://www.html5up.net
     social:
       - icon: fa-twitter
         label: Twitter
