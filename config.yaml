@@ -89,9 +89,9 @@ params:
         title: Careers & professional life
         url: blogs/career
       - image: pic03.jpg
-        subtitle: A look at the Covid-19 case rates in the UK
-        title: Covid-19 case analysis
-        url: blogs/magna
+        subtitle: A look at GDP calculation
+        title: A look at GDP calculation
+        url: blogs/gdp
       - image: pic04.jpg
         subtitle: Risk return analysis
         title: Risk return analysis
