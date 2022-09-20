@@ -53,7 +53,7 @@ library(dplyr)
 At the risk of oversimplifying things, the main components of gross domestic product, GDP are personal consumption (C), business investment (I), government spending (G) and net exports (exports - imports). You can read more about GDP and the different approaches in calculating at the [Wikipedia GDP page](https://en.wikipedia.org/wiki/Gross_domestic_product).
 
 
-```{r GDP_graphics, echo=FALSE, out.width="100%"}
+```{r GDP_graphics, echo=FALSE, out.width="40%"}
 
 knitr::include_graphics("/img/GDP_01.jpeg",error=FALSE)
 
