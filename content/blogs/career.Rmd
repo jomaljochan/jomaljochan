@@ -30,6 +30,12 @@ knitr::opts_chunk$set(
 )
 ```
 
+## Professional goals
+
+Being an engineer who chose to follow a career centered around analytics & leadership, the roles I took up reflected my passion for data and effective decision making driven by data. During my 2 year's of work experience, I worked for a growing B2B e-commerce start-up(Udaan.com) as a Financial Planning & Analysis intern and an Indian Private Bank(RBL Bank) as Manager-Analytics.
+
+As my career progressed, I was entrusted with more autonomy over my projects & the opportunity to lead and mentor my juniors. This experience is what motivated me to join the Masters in Analytics & Management Program at London Business School; to be able to lead innovation in data-focused decision making and help firms push forward towards a data- driven society we all will live in in the near future.
+
 
 ## Udaan.com
 
@@ -40,7 +46,9 @@ As I had no prior experience in analytics, the learning curve was quite steep. N
 
 ## RBL Bank
 
+Post my stint at Udaan.com, I shifted to a growing private bank in India: RBL Bank. With the fairly non-heirarchical leadership team at RBL bank, I was able to prove my ability as a leader as well as an analytics professional. Leading multiple projects involving financial modelling and prediction algorithms, I was able to polish my technical know-how along with tackling the problems of cross-functional team management, project management etc.
 
+This led me to the Masters in Analytics & Management Program at London Business School and I wish to take my experience further by working in Venture Architecture, building businesses from scratch driven my data.
 
 
 
