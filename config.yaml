@@ -92,7 +92,7 @@ params:
         subtitle: GDP calculation & variation
         title: A look at GDP of US,India & Germany across the years
         url: blogs/gdp
-      - image: pic04.jpg
+      - image: risk_return.jpg
         subtitle: Stock Analysis
         title: Risk-Return of DJIA stocks
         url: blogs/risk_return
@@ -100,7 +100,7 @@ params:
         subtitle: Download
         title: My Resume
         url: "blogs/Jomal_resume.pdf"
-      - image: pic05.jpg
+      - image: children.jpg
         subtitle: Youth obesity risks
         title: Relationship between weight and physical activity level
         url: blogs/weight_phys
