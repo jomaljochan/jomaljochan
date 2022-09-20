@@ -18,10 +18,12 @@ title: A look at GDP of US,India & Germany across the years
 <p>At the risk of oversimplifying things, the main components of gross domestic product, GDP are <strong>personal consumption (C)</strong>, <strong>business investment (I)</strong>, <strong>government spending (G)</strong> and <strong>net exports (exports - imports)</strong>. You can read more about GDP and the different approaches in calculating at the <a href="https://en.wikipedia.org/wiki/Gross_domestic_product">Wikipedia GDP page</a>.</p>
 <p><img src="../../../../../../../../../img/GDP_01.jpeg" width="40%" style="display: block; margin: auto;" /></p>
 <p>The GDP data we will look at is from the <a href="https://unstats.un.org/unsd/snaama/Downloads">United Nations’ National Accounts Main Aggregates Database</a>, which contains estimates of total GDP and its components for all countries from 1970 to today. We will look at how GDP and its components have changed over time, and compare different countries and how much each component contributes to that country’s GDP. The file we will work with is <a href="http://unstats.un.org/unsd/amaapi/api/file/6">GDP and its breakdown at constant 2010 prices in US Dollars</a> and it has already been saved in the Data directory. Have a look at the Excel file to see how it is structured and organised</p>
-<p>##Reading the GDP Data</p>
+<div id="reading-the-gdp-data" class="section level2">
+<h2>Reading the GDP Data</h2>
 <pre class="r"><code>UN_GDP_data  &lt;-  read_excel(here::here(&quot;data&quot;, &quot;Download-GDPconstant-USD-countries.xls&quot;), # Excel filename
                 sheet=&quot;Download-GDPconstant-USD-countr&quot;, # Sheet name
                 skip=2) # Number of rows to skip</code></pre>
+</div>
 <div id="tidying-the-data" class="section level2">
 <h2>Tidying the data</h2>
 <pre class="r"><code># Tidy GDP data by 1) pivoting it long, 2) mutate GDP to in billions
@@ -54,6 +56,9 @@ glimpse(US_India_Germany)</code></pre>
 ## $ IndicatorName &lt;chr&gt; &quot;Final consumption expenditure&quot;, &quot;Final consumption expe…
 ## $ Year          &lt;chr&gt; &quot;1970&quot;, &quot;1971&quot;, &quot;1972&quot;, &quot;1973&quot;, &quot;1974&quot;, &quot;1975&quot;, &quot;1976&quot;, …
 ## $ GDP           &lt;dbl&gt; 1152, 1218, 1282, 1329, 1345, 1398, 1450, 1504, 1560, 16…</code></pre>
+</div>
+<div id="gdp-breakdown-its-variations" class="section level2">
+<h2>GDP Breakdown &amp; its variations</h2>
 <pre class="r"><code>indicator_of_interest &lt;- c(&quot;Gross capital formation&quot;, &quot;Exports of goods and services&quot;, &quot;General government final consumption expenditure&quot;, &quot;Household consumption expenditure (including Non-profit institutions serving households)&quot;, &quot;Imports of goods and services&quot;)
 
 selected_US_India_Germany &lt;- US_India_Germany %&gt;%
@@ -68,9 +73,6 @@ ggplot(data = selected_US_India_Germany, aes(x = Year, y = GDP, colour = Indicat
   #theme(legend.title = &quot;Components of GDP&quot;) +
   NULL</code></pre>
 <p><img src="/blogs/gdp_files/figure-html/GDP_components_over_time-1.png" width="768" style="display: block; margin: auto;" /></p>
-</div>
-<div id="gdp-breakdown-its-variations" class="section level2">
-<h2>GDP Breakdown &amp; its variations</h2>
 <p>Secondly, recall that GDP is the sum of Household Expenditure (Consumption <em>C</em>), Gross Capital Formation (business investment <em>I</em>), Government Expenditure (G) and Net Exports (exports - imports). Even though there is an indicator <code>Gross Domestic Product (GDP)</code> in your dataframe, I would like you to calculate it given its components discussed above.</p>
 <pre class="r"><code>new_indicator_of_interest &lt;- c(&quot;Gross capital formation&quot;, &quot;Exports of goods and services&quot;, &quot;General government final consumption expenditure&quot;, &quot;Household consumption expenditure (including Non-profit institutions serving households)&quot;, &quot;Imports of goods and services&quot;, &quot;Gross Domestic Product (GDP)&quot;)
 

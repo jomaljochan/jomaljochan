@@ -89,21 +89,21 @@ params:
         title: Careers & professional life
         url: blogs/career
       - image: GDP_02.png
-        subtitle: A look at GDP calculation
-        title: A look at GDP calculation
+        subtitle: GDP calculation & variation
+        title: A look at GDP of US,India & Germany across the years
         url: blogs/gdp
       - image: pic04.jpg
-        subtitle: Risk return analysis
-        title: Risk return analysis
+        subtitle: Stock Analysis
+        title: Risk-Return of DJIA stocks
         url: blogs/risk_return
       - image: pic05.jpg
-        subtitle: Relationship between weight and physical activity level
+        subtitle: Youth obesity risks
         title: Relationship between weight and physical activity level
         url: blogs/weight_phys
       - image: pic06.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Etiam
-        url: blogs/ipsum
+        subtitle: Download
+        title: My Resume
+        url: blogs/resume
   two:
     buttonText: Let's take off!
     enable: yes
