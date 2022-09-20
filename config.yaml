@@ -97,9 +97,9 @@ params:
         title: Risk return analysis
         url: blogs/risk_return
       - image: pic05.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Consequat
-        url: blogs/ipsum
+        subtitle: Relationship between weight and physical activity level
+        title: Relationship between weight and physical activity level
+        url: blogs/weight_phys
       - image: pic06.jpg
         subtitle: Feugiat Amet Tempus
         title: Etiam
