@@ -35,7 +35,7 @@ knitr::opts_chunk$set(
 
 <!-- # [Life in Warsaw]{.underline} -->
 
-<!-- I was born and raised in the capital of Poland, Warsaw. Living in this great and vibrant city for so many years was an amazing experience, and I invite everyone to come to see it for yourself! -->
+I was born and raised in India & Oman.
 
 <!-- # [Bachelor's degree at Warsaw School of Economics]{.underline} -->
 
