@@ -35,7 +35,20 @@ knitr::opts_chunk$set(
 
 <!-- # [Life in Warsaw]{.underline} -->
 
-I was born and raised in India & Oman.
+I was born and raised in *India* & *Oman*. First born son of a Government employee and a retired teacher, I was always encouraged to read, learn and explore during my childhood. From this conditioning, I fell in love with travelling - travelling solo to the corners of India; my culturally and geographically diverse home country, gave me the peace of mind and confidence to look further outward. Backpacking through the vast swathes of land and cultures of India is what I would suggest to any aspiring traveler looking to get lost among the mountains, rivers and beaches.
+
+## Life in Oman
+
+My time in Oman has been a blur for the most part. As this was during the formative years of my childhood, it is a big part of who I am. My family considered our stay in *Oman* as an extended vacation, travelling across the countries of the middle east every chance we got. Oman, UAE, Saudi Arabia and Yemen; countries with varied cultures and wildly different government systems and backgrounds, through these trips, I learned how good and how cruel the world can be.
+
+##Life in India
+
+The one word that could describe my time in India would be *Friends*. Through my final high school years, undergrad and my 2 years of working, the highlight was always the people I was with. This was a time when I connected, got lost, heart-broken, got confident again and learned to tread the world with no regrets. I am happy to say that after this roller-coaster ride, I am left with a handful of real friends I can lean on at any point in time.
+
+##Time in London
+
+
+
 
 <!-- # [Bachelor's degree at Warsaw School of Economics]{.underline} -->
 
