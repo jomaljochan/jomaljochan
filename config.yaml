@@ -75,7 +75,7 @@ params:
       - name: Elements
         url: elements.html
     menu: Menu
-    subtitle: A summary of my life & work
+    subtitle: A portfolio of my life & work
     title: Home
   tiles:
     enable: yes
@@ -84,7 +84,7 @@ params:
         subtitle: A journey into my life
         title: About me
         url: blogs/aliquam
-      - image: pic02.jpg
+      - image: IMG_02.jpeg
         subtitle: A peek into my work
         title: Careers & professional life
         url: blogs/tempus
