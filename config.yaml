@@ -72,8 +72,8 @@ params:
         url: blogs
       - name: Generic Blog
         url: blogs/ipsum
-      - name: Elements
-        url: elements.html
+#      - name: Elements
+#        url: elements.html
     menu: Menu
     subtitle: A portfolio of my life & work
     title: Home
@@ -83,7 +83,7 @@ params:
       - image: IMG_01.jpg
         subtitle: A journey into my life
         title: About me
-        url: blogs/aliquam
+        url: blogs/about_me
       - image: IMG_02.jpeg
         subtitle: A peek into my work
         title: Careers & professional life
