@@ -70,8 +70,8 @@ params:
         url: '#'
       - name: Blogs
         url: blogs
-      - name: Generic Blog
-        url: blogs/ipsum
+#      - name: Generic Blog
+#        url: blogs/ipsum
 #      - name: Elements
 #        url: elements.html
     menu: Menu
@@ -96,14 +96,15 @@ params:
         subtitle: Stock Analysis
         title: Risk-Return of DJIA stocks
         url: blogs/risk_return
-      - image: pic05.jpg
-        subtitle: Youth obesity risks
-        title: Relationship between weight and physical activity level
-        url: blogs/weight_phys
       - image: resume_cover.jpeg
         subtitle: Download
         title: My Resume
         url: "blogs/Jomal_resume.pdf"
+      - image: pic05.jpg
+        subtitle: Youth obesity risks
+        title: Relationship between weight and physical activity level
+        url: blogs/weight_phys
+
   two:
     buttonText: Let's take off!
     enable: yes
