@@ -87,7 +87,7 @@ params:
       - image: IMG_02.jpeg
         subtitle: A peek into my work
         title: Careers & professional life
-        url: blogs/tempus
+        url: blogs/career
       - image: pic03.jpg
         subtitle: A look at the Covid-19 case rates in the UK
         title: Covid-19 case analysis
