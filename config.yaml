@@ -103,7 +103,7 @@ params:
       - image: pic06.jpg
         subtitle: Download
         title: My Resume
-        url: blogs/resume
+        url: "blogs/Jomal_resume.pdf"
   two:
     buttonText: Let's take off!
     enable: yes
